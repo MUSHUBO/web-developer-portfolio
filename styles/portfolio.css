@@ -1,4 +1,6 @@
-
+/* *{
+    margin: 0;
+} */
 
 .open-sans-normal {
   font-family: "Open Sans", serif;
@@ -191,4 +193,27 @@ main section{
 
 .resume-download-cv{
     margin-top: 50px;
+}
+
+/* footer style */
+.footer{
+    background-color: #FFF8F3;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 120px 230px;
+    gap: 100px;
+}
+.footer-title-font{
+    font-size: 35px;
+    font-weight: bold;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
